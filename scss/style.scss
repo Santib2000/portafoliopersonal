@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
 .container{
    display: flex;
    align-items: center;
@@ -18,17 +21,59 @@
         margin-top: 0.6rem;
         list-style: none;
         text-decoration: none; 
-        font-family:sans-serif;
+        font-family: 'Montserrat', sans-serif;;
     } 
 
     .list-link {
         text-decoration: none; 
         color: black;
-        font-family: sans-serif;
     }
 
+    .list-item:hover {
+        color: red;
+    } 
 
+} 
+
+.parrafo-principal {
+
+    .text-parrafo {
+        font-size: 20px;
+        text-align: start; 
+        font-family: 'Montserrat', sans-serif;;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    } 
+
+    .name-text {
+        font-size: 24px;
+        color: cadetblue; 
+    }
 }
 
+
+.img-text {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    margin-top: 2rem; 
+
+
+
+    .imagen-personal {
+        width: 300px; 
+        margin-top: 2rem; 
+        margin-left: 10rem
+    }  
+
+
+    .section-parrafo {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;;;
+        margin-top: 3rem;
+        color: white;
+    }
+}
 
 
