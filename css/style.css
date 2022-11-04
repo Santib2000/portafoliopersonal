@@ -40,11 +40,12 @@
 }
 
 .img-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: cadetblue;
-  margin-top: 2rem;
+  margin: 2rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 .img-text .imagen-personal {
   width: 300px;
@@ -54,8 +55,67 @@
 .img-text .section-parrafo {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  margin-top: 3rem;
+  margin: 2rem;
+  color: black;
+}
+.img-text .Sicos {
+  font-size: 23px;
+  color: #e63946;
+  text-transform: uppercase;
+}
+
+.text-cursos {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+.text-cursos .cursos-realizados {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
   color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title-div {
+  background-color: cadetblue;
+  display: block;
+  align-items: center;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+.title-div .title-tec {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 1rem;
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.tec-aprendidas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+.tec-aprendidas .container-tec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
